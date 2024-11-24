@@ -42,7 +42,7 @@ end;
 
 
 { функция поиска положительного элемента в массиве }
-function SearchPositiveElementInMassive (const d: massive, d_x: integer);
+function SearchPositiveElementInMassive (const d: massive, d_x: integer): integer;
 var
   flag: false;
   i: integer;
