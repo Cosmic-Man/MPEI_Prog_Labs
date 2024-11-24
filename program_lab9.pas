@@ -9,6 +9,7 @@ type
   matrix = array [1..max_size, 1..max_size] of real;
 
 
+{ функция нахождения суммы элементов выше главной диагонали, абсолютное значение которых находится в заданном диапазоне }
 function SumElementsAboveTheMainDiagonal(const D: matrix; matr_n, start_d, end_d: integer): real;
 var
   s: real;
@@ -21,6 +22,7 @@ begin
 end;
 
 
+{ функция нахождения суммы элементов выше побочной диагонали, абсолютное значение которых находится в заданном диапазоне }
 function SumElementsAboveTheSideDiagonal(const D: matrix; matr_n, start_d, end_d: integer): real;
 var
   s: real;
